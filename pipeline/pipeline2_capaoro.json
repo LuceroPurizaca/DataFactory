@@ -1,0 +1,28 @@
+{
+	"name": "pipeline2_capaoro",
+	"properties": {
+		"activities": [
+			{
+				"name": "Notebook1",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/prisnic.lucero1997@gmail.com/transferir_datos_a_capaoro 2024-02-03 21:08:28"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks_DataFactory",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": []
+	}
+}
