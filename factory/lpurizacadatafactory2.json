@@ -1,0 +1,14 @@
+{
+	"name": "lpurizacadatafactory2",
+	"properties": {
+		"globalConfigurations": {
+			"PipelineBillingEnabled": "true"
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "972bdf70-79a5-4497-8aac-c61bc0b70290",
+		"tenantId": "68fa90ab-6e4d-4c1a-b75c-834d31d919a9"
+	}
+}

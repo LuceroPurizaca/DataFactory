@@ -1,0 +1,12 @@
+{
+	"name": "Link_DataFactory_ADLS",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://lpurizacastorage.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEQ0REQ5Mzg2LUVEQUYtNDhGRi1BNUQ2LTJEQzM0NjlCNkE4M182MGYzNTcwOS0yNzZmLTQ5MDYtOGY4YS1kMWYwNTRjMzI3NmEiDQp9"
+		}
+	}
+}
